@@ -30,18 +30,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         startLocation = nil
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager( _ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        let location = locations[0] as CLLocation!
-        
-        altitudeLabel.text = String(location.altitude)
-        latitudeLabel.text = String(location.coordinate.latitude)
-        longitudeLabel.text = String(location.coordinate.longitude)
-        
-        if startLocation == nil {
-            startLocation = location as CLLocation
+        if let location = locations[0] as CLLocation! {
+            
+            altitudeLabel.text = String(location.altitude)
+            latitudeLabel.text = String(location.coordinate.latitude)
+            longitudeLabel.text = String(location.coordinate.longitude)
+            
+            if startLocation == nil {
+                startLocation = location as CLLocation
+            }
+            
         }
-        
     }
 
 

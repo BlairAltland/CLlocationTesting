@@ -193,13 +193,18 @@
 				TargetAttributes = {
 					75DDC6871D0E075500C4EE89 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LYP3SYJ69A;
+						DevelopmentTeamName = "Blair Altland";
+						LastSwiftMigration = 0800;
 					};
 					75DDC69B1D0E075500C4EE89 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 75DDC6871D0E075500C4EE89;
 					};
 					75DDC6A61D0E075500C4EE89 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 75DDC6871D0E075500C4EE89;
 					};
 				};
@@ -403,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTestingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLlocationTesting.app/CLlocationTesting";
 			};
 			name = Debug;
@@ -437,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTestingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLlocationTesting.app/CLlocationTesting";
 			};
 			name = Release;
@@ -448,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTestingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CLlocationTesting;
 			};
 			name = Debug;
@@ -459,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlairAltland.CLlocationTestingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CLlocationTesting;
 			};
 			name = Release;
@@ -482,6 +493,7 @@
 				75DDC6B21D0E075500C4EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75DDC6B31D0E075500C4EE89 /* Build configuration list for PBXNativeTarget "CLlocationTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +502,7 @@
 				75DDC6B51D0E075500C4EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75DDC6B61D0E075500C4EE89 /* Build configuration list for PBXNativeTarget "CLlocationTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				75DDC6B81D0E075500C4EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
